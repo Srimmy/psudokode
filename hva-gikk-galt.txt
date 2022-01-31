@@ -1,0 +1,9 @@
+Key down === "43" funker ikke, det er noe annet.
+    Rettelse: fant ut at det er addeventListner("keyDown", funksjon)
+    deretter i funksjonen skriver du print e.key for å finne hvilken key det er.
+    Keydown funker ved at man har addevent listner, etter den kommer en funksjon der e.keycode blir knappen du trykka på. derifra kan man ta if test eg. if( e.keycode === x),
+
+glemte fill foran "rect".
+
+glemte å lage farge.
+
